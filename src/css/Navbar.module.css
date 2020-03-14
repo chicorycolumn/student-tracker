@@ -1,0 +1,44 @@
+button {
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: bold;
+  border: #261339 solid 0.1em;
+  flex-grow: 1;
+  /* display: flex; */
+  /* height: 3vw;
+  font-size: 2vw; */
+}
+
+li {
+  background-color: rebeccapurple;
+  color: white;
+  font-weight: bold;
+  border: #261339 solid 0.1em;
+  display: flex;
+  height: 3vw;
+  font-size: 2vw;
+  /* flex-grow: 1;
+  min-width: 0; */
+  width: 33vw;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  margin-top: 1.5px;
+}
+
+ul {
+  background-color: powderblue;
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
