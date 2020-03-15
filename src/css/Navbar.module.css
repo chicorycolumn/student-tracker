@@ -1,14 +1,3 @@
-button {
-  background-color: rebeccapurple;
-  color: white;
-  font-weight: bold;
-  border: #261339 solid 0.1em;
-  flex-grow: 1;
-  /* display: flex; */
-  /* height: 3vw;
-  font-size: 2vw; */
-}
-
 li {
   background-color: rebeccapurple;
   color: white;
@@ -41,4 +30,70 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.aboveNav {
+  display: flex;
+  background-color: violet;
+  height: 8vw;
+  min-height: 8vh;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.searchbarContainer {
+  background-color: teal;
+  width: 50vw;
+}
+
+.searchbar {
+  background-color: violet;
+  width: 100%;
+}
+
+.loggedInAs {
+  background-color: wheat;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-height: 4vh;
+  height: 2vh;
+}
+
+.adminPic {
+}
+
+img {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 1;
+  height: 100%;
+}
+
+.loggedInWords {
+  display: grid;
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+
+.loggedInName {
+  display: grid;
+  grid-column: 2/2;
+  grid-row: 2/2;
+  color: red;
+}
+
+.logo_text {
+  margin: -0.1vw;
+  text-align: left;
+  font-weight: bold;
+  display: flex;
+  font-size: 2.5vw;
 }
