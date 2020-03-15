@@ -1,0 +1,77 @@
+body {
+  /* background-color: yellow; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.title {
+  /* display: grid;
+  grid-column: 2 /3; */
+  margin: 0%;
+  font-size: 8vw;
+  color: #321a4c;
+  position: relative;
+  left: 100%;
+  top: -1300%;
+}
+
+.cellA {
+  height: 30vw;
+  background-color: #e5d9f2;
+  /* background-color: red; */
+}
+
+.cellB {
+  height: 30vw;
+  background-color: #f2ecf9;
+  /* background-color: red; */
+}
+/* 
+#cell1 {
+  
+}
+
+#cell2 {
+  
+}
+
+#cell3 {
+  background-color: purple;
+}
+
+#cell4 {
+  background-color: gold;
+}
+
+#cell5 {
+  background-color: purple;
+}
+
+#cell6 {
+  background-color: gold;
+}
+
+#cell7 {
+  background-color: purple;
+}
+
+#cell8 {
+  background-color: gold;
+}
+
+#cell9 {
+  background-color: purple;
+}
+
+#cell10 {
+  background-color: gold;
+}
+
+#cell11 {
+  background-color: purple;
+}
+
+#cell12 {
+  background-color: gold;
+} */

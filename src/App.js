@@ -5,6 +5,7 @@ import "./css/App.module.css";
 import Blocks from "./Blocks";
 import Students from "./Students";
 import Navbar from "./Navbar";
+import Home from "./Home";
 
 class App extends React.Component {
   render() {
@@ -21,12 +22,6 @@ class App extends React.Component {
     );
   }
 }
-
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-);
 
 const About = () => (
   <div>

@@ -5,7 +5,7 @@ const fetchStudentsData = cb => {
     .get("https://nc-student-tracker.herokuapp.com/api/students")
     .then(res => res.data)
     .then(students => {
-      const studentsData = students["students"]; // ***Remove this restriction later.
+      const studentsData = students["students"].slice(0, 5); // ***Remove this restriction later.
 
       studentsData.forEach(student => {
         axios

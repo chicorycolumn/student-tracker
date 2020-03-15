@@ -1,7 +1,7 @@
 import React from "react";
 import { Router, Link, navigate } from "@reach/router";
 import styled from "styled-components";
-import "./css/App.module.css";
+import styles from "./css/Students.module.css";
 import { useTable } from "react-table";
 import fetchStudentsData from "./utils/fetchStudentsUtil";
 import fetchStudentByIDUtil from "./utils/fetchStudentByIDUtil";
@@ -23,7 +23,7 @@ class Students extends React.Component {
   render() {
     return (
       <div>
-        <h2>Students</h2>
+        <h2 className={styles.title}>S T U D E N T S</h2>
         <Router>
           <SingleStudent path="/:student_id" />
         </Router>
